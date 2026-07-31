@@ -1,8 +1,27 @@
 aid: nok-nok-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nok-nok-labs.png
 name: Nok Nok Labs
-description: 'Nok Nok Labs is a company surfaced as a portfolio company of dcm-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Nok Nok Labs is a passwordless and strong authentication vendor and a
+  founding member of the FIDO Alliance, known for the Nok Nok S3 Authentication Suite
+  that lets enterprises deploy FIDO-based (UAF/U2F/FIDO2/passkey) multi-factor and
+  passwordless authentication across mobile and web. Its offering is an enterprise,
+  server-side authentication platform sold to banks, telcos, and large organizations
+  rather than a self-serve public API product. As of this enrichment pass the company
+  has no independent public developer portal: the noknok.com domain (every path probed)
+  301-redirects to OneSpan''s security platform at onespan.com/security, indicating
+  its web presence has been consolidated under OneSpan. It was added to the API Evangelist
+  network as a portfolio company of DCM Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/nok-nok-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +29,19 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: 'noknok.com 301-redirects to onespan.com/security (probed 2026-07-20); no independent
+  public API/developer surface found.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Authentication
+- FIDO
+- Passwordless
+- Identity
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.noknok.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
