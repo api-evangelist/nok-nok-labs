@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.noknok.com/', status: 301, note: 'declared website redirects to https://www.onespan.com/cybersecurity — a different registrable domain (noknok.com -> onespan.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nok-nok-labs.png
 name: Nok Nok Labs
 description: 'Nok Nok Labs is a passwordless and strong authentication vendor and a
